@@ -7,7 +7,7 @@
 int tests_run = 0;
 
 static char* all_tests() {
-    mu_assert("TestFunction should return 0", TestFunction() == 0);
+    mu_assert("TestFunction should return 0", TestFunction(1, 2) == 3);
     return 0;
 }
 
