@@ -29,3 +29,4 @@ target_link_libraries(mylibTest PRIVATE mylib)
 # Find more information here:
 #  https://cmake.org/cmake/help/latest/command/add_test.html
 add_test(myTest mylibTest)
+

@@ -10,3 +10,4 @@ target_sources(myApp
         main.c
 )
 target_link_libraries(myApp PRIVATE mylib)
+

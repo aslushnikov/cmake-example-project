@@ -23,3 +23,4 @@ int main(/*int argc, char** argv*/)
     printf("Tests run: %d\n", tests_run);
     return result != 0;
 }
+
